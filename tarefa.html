@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa 3.1 - Lista de exercícios</title>
+</head>
+<body>
+    <script src="script.js" defer></script>
+    <head>
+        <h1>Cálculo de Fatorial</h1>
+    </head>
+    <body>
+        <label for="number">Digite um número inteiro:</label>
+        <input type="number" id="numberInput">
+        <button onclick="calculateFactorial()">Calcular Fatorial</button>
+        <p id="resultado"></p>
+    
+        <h1>Data por Extenso</h1>
+    
+    
+        <label for="dateInput">Digite uma data (dd/mm/aaaa):</label>
+        <input type="date" id="dateInput">
+        <button onclick="writeDate()">Escrever Data por Extenso</button>
+        <p id="resultado2"></p>
+    
+       
+            <h1>Calculadora de IMC</h1>
+       
+        
+            <label for="name">Nome:</label>
+            <input type="text" id="nameInput"><br>
+            <label for="weight">Peso (Kg):</label>
+            <input type="number" id="weightInput"><br>
+            <label for="height">Altura (M):</label>
+            <input type="number" step="0.01" id="heightInput"><br>
+            <button onclick="calculateIMC()">Calcular IMC</button><br>
+            <p id="resultado3"></p>
+    
+            
+            
+                <h1>Caixa Eletrônico</h1>
+                <label for="withdrawAmount">Digite o valor a ser sacado:</label>
+                <input type="number" id="withdrawAmount" min="1" step="1">
+                <button id="calculateButton">Calcular</button>
+                <div id="resultado4"></div>
+            
+            
+    </body>
+    
+</body>
+</html>
